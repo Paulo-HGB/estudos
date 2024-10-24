@@ -1,0 +1,17 @@
+#caixa1,#caixa2{
+    height: 200px;
+    width: 200px;
+}
+
+#caixa1{
+    background-color: #00ffff;
+    padding: 20px;
+    border: 2px solid #000000;
+    margin: 0px 0px 10px 0px; /*começa na borda superior e gira em sentido horário*/
+    box-sizing: border-box;
+}
+
+#caixa2{
+    background-color: #b8838c;
+
+}

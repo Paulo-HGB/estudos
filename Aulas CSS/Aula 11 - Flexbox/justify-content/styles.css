@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    border: 2px solid #000000;
+    flex-direction: column;/*row-reverse, colunm, colunm-reverse*/
+    justify-content: space-around;/*flex-start, center, flex-end, space-around, space-evelyn, space between*/
+}
+
+.item{
+    background-color: #ff6347;
+    /* margin: 10px; */
+}

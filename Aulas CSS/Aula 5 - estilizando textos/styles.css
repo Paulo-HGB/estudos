@@ -1,0 +1,11 @@
+p{
+    font-family: Rubik, monospace;    
+/*monospace, fantasy, cursive, serif, sans-serif*/
+    font-weight: 300;
+    font-style: italic;    
+}
+
+#exemplo{
+    text-transform: capitalize;
+    text-align: center;
+}

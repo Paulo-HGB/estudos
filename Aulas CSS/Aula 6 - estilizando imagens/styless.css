@@ -1,0 +1,16 @@
+img{
+    border-radius: 50%;
+    border: 2px solid #ff0000;
+    height: 200px;
+    filter: grayscale(100%);
+}
+
+#ph{
+    background-image: url('assets/photos/eu.jpg');
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: 0 45%;
+    /*background-position: horizontal vertical*/
+    border-radius: 50%;
+}

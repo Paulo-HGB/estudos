@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    padding: 2rem;
+}
+
+h2{
+    margin: 1rem 0;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+p{
+    display: inline;
+}
+
+div p{
+    background-color: red;
+}
+
+div > p{
+    background-color: chartreuse;
+}
+
+h2 + p{
+    font-weight: bold;
+}
+
+h2 ~ p{
+    background-color: blue;
+}
